@@ -221,6 +221,7 @@ final class ConfigurationFactory extends AbstractFactory
             'repository_factory' => null,
             'class_metadata_factory_name' => null,
             'entity_listener_resolver' => null,
+            'schema_assets_filter' => null,
             'second_level_cache' => [
                 'enabled' => false,
                 'default_lifetime' => 3600,
